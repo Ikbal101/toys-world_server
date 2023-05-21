@@ -44,7 +44,7 @@ async function run() {
     
     
       const result = await toysCollection.findOne(query);
-      res.send(resul);
+      res.send(result);
     });
 
 
